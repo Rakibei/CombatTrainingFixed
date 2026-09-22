@@ -14,7 +14,7 @@
     <DebugSymbols>false</DebugSymbols>
     <DebugType>none</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>1.4\Assemblies\</OutputPath>
+    <OutputPath>1.6\Assemblies\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -42,7 +42,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Hospitality">
-      <HintPath>..\..\..\..\workshop\content\294100\753498552\1.4\Assemblies\Hospitality.dll</HintPath>
+      <HintPath>..\..\..\..\workshop\content\294100\753498552\1.6\Assemblies\Hospitality.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="HugsLib">
@@ -66,59 +66,57 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1.4\Source\Building_CombatDummy.cs" />
-    <Compile Include="1.4\Source\Building_CombatDummy.cs" />
-    <Compile Include="1.4\Source\CombatTrainingController.cs" />
-    <Compile Include="1.4\Source\CombatTrainingDefOf.cs" />
-    <Compile Include="1.4\Source\CombatTrainingTracker.cs" />
-    <Compile Include="1.4\Source\CompatibilityUtility.cs" />
-    <Compile Include="1.4\Source\Designator_BaseTrainCombat.cs" />
-    <Compile Include="1.4\Source\Designator_TrainCombatAny.cs" />
-    <Compile Include="1.4\Source\Designator_TrainCombatMeleeOnly.cs" />
-    <Compile Include="1.4\Source\Designator_TrainCombatRangedOnly.cs" />
-    <Compile Include="1.4\Source\JobDriver_TrainCombat.cs" />
-    <Compile Include="1.4\Source\RoomRoleWorker_CombatTrainingRoom.cs" />
-    <Compile Include="1.4\Source\SkillXpValues.cs" />
-    <Compile Include="1.4\Source\TrainCombatDesignatorDef.cs" />
-    <Compile Include="1.4\Source\WorkGiver_TrainCombat.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+	<Compile Include="1.6\Source\Building_CombatDummy.cs" />
+	<Compile Include="1.6\Source\CombatTrainingController.cs" />
+	<Compile Include="1.6\Source\CombatTrainingDefOf.cs" />
+	<Compile Include="1.6\Source\CombatTrainingTracker.cs" />
+	<Compile Include="1.6\Source\CompatibilityUtility.cs" />
+	<Compile Include="1.6\Source\Designator_BaseTrainCombat.cs" />
+	<Compile Include="1.6\Source\Designator_TrainCombatAny.cs" />
+	<Compile Include="1.6\Source\Designator_TrainCombatMeleeOnly.cs" />
+	<Compile Include="1.6\Source\Designator_TrainCombatRangedOnly.cs" />
+	<Compile Include="1.6\Source\JobDriver_TrainCombat.cs" />
+	<Compile Include="1.6\Source\RoomRoleWorker_CombatTrainingRoom.cs" />
+	<Compile Include="1.6\Source\SkillXpValues.cs" />
+	<Compile Include="1.6\Source\TrainCombatDesignatorDef.cs" />
+	<Compile Include="1.6\Source\WorkGiver_TrainCombat.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="1.4\Source\tests\" />
+    <Folder Include="1.6\Source\tests\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="1.4\Assemblies\Combat_Training_Fixed.dll" />
-    <Content Include="1.4\Assemblies\Combat_Training_Fixed.pdb" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\DesignationCategoryDef\DesignationCategories.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\JobDefs\Jobs_Misc.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\JobDef\Jobs_Misc.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\KeyBindingCategoryDef\KeyBindingCategories_Add_Architect.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\Misc\Designations\DesignationCategories.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\Misc\Designations\Designations.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\RecipeDef\Recipes_Add_Make.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\RoomRoleDef\RoomRoles.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\Rooms\RoomRoles.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\ThingCategoryDefs\ThingCategories.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\ThingCategoryDef\ThingCategories.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\ThingDefs_Buildings\Buildings_Misc.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\ThingDefs_Misc\Weapons\BaseTrainingWeapons.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\ThingDefs_Misc\Weapons\MeleeTraining.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\ThingDefs_Misc\Weapons\RangedTraining.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\ThingDef\Buildings_Misc.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\ThingDef\MeleeTraining.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\ThingDef\RangedTraining.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\ThoughtDefs\Thoughts_Memory_RoomStats.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\ThoughtDef\Thoughts_Memory_RoomStats.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\WorkGiverDefs\WorkGivers.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\WorkGiverDef\WorkGivers.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\WorkTypeDefs\WorkTypes.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\DefInjected\WorkTypeDef\WorkTypes.xml" />
-    <Content Include="1.4\Languages\ChineseSimplified\Keyed\CombatDummy.xml" />
-    <Content Include="1.4\Languages\English\Keyed\CombatDummy.xml" />
-    <Content Include="1.4\Textures\CombatTrainingBBGun.png" />
-    <Content Include="1.4\Textures\CombatTrainingDummy_east.png" />
-    <Content Include="1.4\Textures\CombatTrainingDummy_north.png" />
-    <Content Include="1.4\Textures\CombatTrainingDummy_south.png" />
+    <Content Include="1.6\Assemblies\Combat_Training_Fixed.dll" />
+    <Content Include="1.6\Assemblies\Combat_Training_Fixed.pdb" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\DesignationCategoryDef\DesignationCategories.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\JobDefs\Jobs_Misc.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\JobDef\Jobs_Misc.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\KeyBindingCategoryDef\KeyBindingCategories_Add_Architect.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\Misc\Designations\DesignationCategories.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\Misc\Designations\Designations.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\RecipeDef\Recipes_Add_Make.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\RoomRoleDef\RoomRoles.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\Rooms\RoomRoles.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\ThingCategoryDefs\ThingCategories.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\ThingCategoryDef\ThingCategories.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\ThingDefs_Buildings\Buildings_Misc.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\ThingDefs_Misc\Weapons\BaseTrainingWeapons.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\ThingDefs_Misc\Weapons\MeleeTraining.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\ThingDefs_Misc\Weapons\RangedTraining.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\ThingDef\Buildings_Misc.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\ThingDef\MeleeTraining.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\ThingDef\RangedTraining.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\ThoughtDefs\Thoughts_Memory_RoomStats.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\ThoughtDef\Thoughts_Memory_RoomStats.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\WorkGiverDefs\WorkGivers.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\WorkGiverDef\WorkGivers.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\WorkTypeDefs\WorkTypes.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\DefInjected\WorkTypeDef\WorkTypes.xml" />
+    <Content Include="1.6\Languages\ChineseSimplified\Keyed\CombatDummy.xml" />
+    <Content Include="1.6\Languages\English\Keyed\CombatDummy.xml" />
+    <Content Include="1.6\Textures\CombatTrainingBBGun.png" />
+    <Content Include="1.6\Textures\CombatTrainingDummy_east.png" />
+    <Content Include="1.6\Textures\CombatTrainingDummy_north.png" />
+    <Content Include="1.6\Textures\CombatTrainingDummy_south.png" />
     <Content Include="About\About.xml" />
     <Content Include="About\preview.png" />
     <Content Include="Defs\JobDefs\Jobs_Misc.xml" />
@@ -153,16 +151,16 @@
     <Content Include="Textures\CombatTrainingDummy_south.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="1.4\Textures\CombatTrainingDummy_back.xcf" />
-    <None Include="1.4\Textures\CombatTrainingDummy_front.xcf" />
-    <None Include="1.4\Textures\CombatTrainingDummy_scaled_back.xcf" />
-    <None Include="1.4\Textures\CombatTrainingDummy_scaled_decolorized_back.xcf" />
-    <None Include="1.4\Textures\CombatTrainingDummy_scaled_decolorized_front.xcf" />
-    <None Include="1.4\Textures\CombatTrainingDummy_scaled_decolorized_side.xcf" />
-    <None Include="1.4\Textures\CombatTrainingDummy_scaled_front.xcf" />
-    <None Include="1.4\Textures\CombatTrainingDummy_scaled_side.xcf" />
-    <None Include="1.4\Textures\CombatTrainingDummy_side.xcf" />
-    <None Include="1.4\Textures\CombatTrainingSteamTitleImage.xcf" />
+    <None Include="1.6\Textures\CombatTrainingDummy_back.xcf" />
+    <None Include="1.6\Textures\CombatTrainingDummy_front.xcf" />
+    <None Include="1.6\Textures\CombatTrainingDummy_scaled_back.xcf" />
+    <None Include="1.6\Textures\CombatTrainingDummy_scaled_decolorized_back.xcf" />
+    <None Include="1.6\Textures\CombatTrainingDummy_scaled_decolorized_front.xcf" />
+    <None Include="1.6\Textures\CombatTrainingDummy_scaled_decolorized_side.xcf" />
+    <None Include="1.6\Textures\CombatTrainingDummy_scaled_front.xcf" />
+    <None Include="1.6\Textures\CombatTrainingDummy_scaled_side.xcf" />
+    <None Include="1.6\Textures\CombatTrainingDummy_side.xcf" />
+    <None Include="1.6\Textures\CombatTrainingSteamTitleImage.xcf" />
     <None Include="Textures\CombatTrainingDummy_back.xcf" />
     <None Include="Textures\CombatTrainingDummy_front.xcf" />
     <None Include="Textures\CombatTrainingDummy_scaled_back.xcf" />
