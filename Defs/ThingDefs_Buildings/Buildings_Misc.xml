@@ -6,6 +6,7 @@
     <description>Used to train melee and shooting skills</description>
     <thingClass>KriilMod_CD.Building_CombatDummy</thingClass>
     <hasTooltip>true</hasTooltip>
+	<soundImpactDefault></soundImpactDefault>
     <graphicData>
       <texPath>CombatTrainingDummy</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -19,6 +20,8 @@
       <drawSize>1.2</drawSize>
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <castEdgeShadows>false</castEdgeShadows>    
     <altitudeLayer>Building</altitudeLayer>
     <minifiedDef>MinifiedThing</minifiedDef>
